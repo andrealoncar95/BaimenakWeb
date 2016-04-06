@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>UpdateUser</title>
+		<link href="/Baimenak/css/styleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>Eraikuntza baimenak eskatzeko tokia</h1>
+		<h3>Erabiltzailearen datuen eguneraketa</h3>
+	</header>
+		<section>
+			<form method="POST" action="/Baimenak/servlet/UpdateUserServlet">
+				<table>
+	   				<tr>
+	   					<td>Izena</td>
+	   					<td><input name="izena"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Lehenengo abizena</td>
+	   					<td><input name="abizen1"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Bigarren abizena</td>
+	   					<td><input name="abizen2"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>NIF</td>
+	   					<td><input name="NIF"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Helbidea</td>
+	   					<td><input name="helbide"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Telefonoa</td>
+	   					<td><input name="tele"/></td>
+	   				</tr>
+	 			</table>
+				<button>Eguneratu</button>
+			</form>
+			<a href="/Baimenak/html/user.html" style="text-decoration: none">
+				<button>Atzera</button>
+			</a>
+	</section>
+		<footer><img alt="mungiako udala" src="/Baimenak/img/m.jpg" width="90" height="80" align="left">
+	HIRIGINTZA ATALA</footer>
+	</body>
+</html>
+

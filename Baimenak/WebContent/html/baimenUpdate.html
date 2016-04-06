@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>UpdateBaimen</title>
+		<link href="/Baimenak/css/styleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>Eraikuntza baimenak eskatzeko tokia</h1>
+		<h3>Baimenaren eguneraketa</h3>
+	</header>
+		<section>
+			<form method="POST" action="/Baimenak/servlet/UpdateBaimenServlet">
+				<table>
+	   				<tr>
+	   					<td>Baimenaren izena</td>
+	   					<td><input name="izena"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Kokalekua</td>
+	   					<td><input name="kokalekua"/></td>
+	   				</tr>
+	   				<tr>
+	   					<td>Eraikuntza lanen kostua</td>
+	   					<td><input name="kostua"/></td>
+	   				</tr>
+	 			</table>
+				<button>Eguneratu</button>
+			</form>
+			<a href="/Baimenak/html/mainForm.html" style="text-decoration: none">
+				<button>Menu nagusira bueltatu</button>
+			</a>
+	</section>
+		<footer><img alt="mungiako udala" src="/Baimenak/img/m.jpg" width="90" height="80" align="left">
+	HIRIGINTZA ATALA</footer>
+	</body>
+</html>
+
